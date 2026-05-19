@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="MoneyExtension.Tests/MoneyExtension.Tests.csproj" />
+  <Project Path="MoneyExtension/MoneyExtension.csproj" />
+</Solution>
