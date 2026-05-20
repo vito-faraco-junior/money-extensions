@@ -1,9 +1,27 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net10.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+  	<PropertyGroup>
+    	<TargetFramework>net10.0</TargetFramework>
+    	<ImplicitUsings>enable</ImplicitUsings>
+    	<Nullable>enable</Nullable>
 
+		<PackageId>MoneyExtensions-VFJ</PackageId>
+		<Version>1.0.0</Version>
+		<License>MIT</License>
+		<Authors>Vito Faraco Junior</Authors>
+		<Company>VFJ</Company>
+		<PackageDescription>Extension to convert decimal to integer</PackageDescription>
+		<Description>Extension to convert decimal to integer</Description>
+		<RepositoryUrl>https://github.com/vito-faraco-junior/money-extensions</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/vito-faraco-junior/money-extensions</PackageProjectUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageIconUrl>icon.png</PackageIconUrl>
+		<PackageTags>money;int;decimal;converter</PackageTags>
+		<Title>MoneyExtensions</Title>
+		<Summary>Extension to convert decimal to int</Summary>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\Media\icon.png" Pack="true" PackagePath="\"/>
+	</ItemGroup>
 </Project>
